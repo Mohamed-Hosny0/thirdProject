@@ -1,0 +1,443 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: bisque;
+    position: relative;
+}
+
+div ul li a {
+    color: #cca768 !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+.c1 {
+    background-color: #242d41 !important;
+}
+
+
+.lamb {
+    font-family: "Dancing Script", cursive;
+    background-color: #242d41;
+    color: #d0a651;
+    font-weight: bold;
+    cursor: pointer;
+    animation: lighting 1s alternate-reverse infinite;
+}
+
+.card {
+    background-color: #242d41;
+    color: white;
+}
+
+h5 {
+    background: linear-gradient(#edc567 2%, #ffecb2 42%, #cf9e3d 71%, #ffecb2);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+@keyframes lighting {
+    from {
+        text-shadow: none;
+    }
+
+    to {
+        text-shadow: 1px 1px 20px rgb(242, 246, 137);
+    }
+}
+
+
+.gbg {
+    background-color: #EAE4DD !important;
+}
+
+.btn-c {
+    background: linear-gradient(90deg, #f1cd76 2%, #ffecb2 42%, #d0a651 71%, #ffecb2);
+
+}
+
+.btn-c:hover {
+    filter:contrast(1.2) !important;
+
+}
+
+.modal-header {
+    background-color: #242d41;
+}
+
+ul .nav-item:hover ::first-letter {
+    color: #EAE4DD;
+    transform: scale(5, 5);
+    font-size: 25px;
+    font-family: "Dancing Script", cursive;
+
+}
+
+ul .nav-item:hover {
+    color: #EAE4DD;
+    padding-top: -50px !important;
+    border-bottom: 1px solid #EAE4DD;
+}
+
+/* .crbt {
+    background-color: #cf9e3d;
+    color: black;
+} */
+
+.c2:hover {
+}
+
+.crbt:hover {
+    background: #354c7a;
+    color: white;
+}
+
+h1 {
+    top: 0;
+}
+
+.cbg {
+    background-color: rgba(0, 0, 0, 0.479) !important;
+    border-radius: 20px !important;
+    border: 1px solid #d0a651
+}
+
+.custom {
+    position: relative;
+    background: -webkit-linear-gradient(90deg, #f1cd76 2%, #ffecb2 42%, #d0a651 71%, #ffecb2) !important;
+}
+
+div h2 a {
+    color: #222b48!important;
+}
+
+div h2 a:hover {
+    color: #cf9e3d !important;
+}
+
+.new {
+
+    background: linear-gradient(180deg, #526a86 , #1b273f ) !important;
+    color: white;
+    text-shadow: 1px 1px 10px black;
+}
+
+.custom:hover::after {
+    content: attr(value);
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 1px 20px 20px;
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+.imgcss {
+    background-image: url(../imgs/f38208d35dad678bda5873b43c85b9001b238e9d_high.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: cover;
+}
+
+.overlay {
+    position: relative;
+}
+
+.overlay img {
+    width: 100%;
+    display: block;
+}
+
+.overlay::after {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 0;
+    height: 0;
+    background: linear-gradient(90deg, #f1cc765b 2%, #ffecb250 42%, #d0a65148 71%, #ffecb246);
+    opacity: 0;
+    transition: 1s;
+
+}
+
+.overlay:hover::after {
+    opacity: 1;
+    width: 100%;
+    height: 98%;
+}
+
+.overlay::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    background: linear-gradient(90deg, #f1cc7680 2%, #ffecb27c 42%, #d0a65173 71%, #ffecb27c);
+    opacity: 0;
+    transition: 1s;
+
+}
+
+.overlay:hover::before {
+    opacity: 1;
+    width: 100%;
+    height: 98.5%;
+}
+
+.imgcss2 {
+    background-image: url(../imgs/perfume_net_pic.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: cover;
+}
+
+
+
+.card a {
+    /* background:-webkit-linear-gradient(270deg, #5378c2, #314772, #1b273f) !important; */
+}
+
+/* /////////////////// */
+
+.card1:hover {
+    transform: scale(0.9, 0.9);
+    transition: 0.5s;
+}
+
+.zxca {
+    background: -webkit-linear-gradient(top, rgba(24, 30, 43, 0.938), rgba(24, 30, 43, 0.761), rgba(24, 30, 43, 0.522));
+    transition: 0.3s;
+}
+
+.card1:hover .zxca {
+    background: -webkit-linear-gradient(270deg, #f1cc76c1 2%, #ffecb294 42%, #d0a6514a 71%, #ffecb241);
+    padding-top: 70px;
+    color: black !important;
+}
+
+.card1:hover .title01 {
+    padding-top: 50px;
+}
+
+.qwer {
+    bottom: 100px !important;
+}
+
+.card1:hover .text1 {
+    color: black !important;
+}
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.span1::after {
+    content: "";
+    position: absolute;
+    background-color: #fcdab0;
+    width: 90px;
+    height: 529px;
+    transform: skewX(5deg);
+    right: 650px;
+    z-index: 5;
+}
+
+.zzz {
+    position: relative;
+    order: 1 !important;
+}
+
+.aheh {
+    background-color: rgb(250, 218, 178);
+    border-radius: 20px;
+}
+
+.img {
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.bgi {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    border-radius: 20px;
+
+}
+
+.aaaa {
+    max-width: 1611px !important;
+
+}
+
+/* ////////////////////////////////////////////////////////// */
+
+.aheh:hover .ranged {
+    width: 150px;
+}
+
+.aheh:hover .img {
+    transform: scale(1.1, 1.1);
+}
+
+.span2::after {
+    content: "";
+    position: absolute;
+    background-color: #fcdab0;
+    width: 90px;
+    height: 529px;
+    transform: skewX(-5deg);
+    left: 650px;
+    z-index: 6;
+}
+
+.ccc {
+    order: 2 !important;
+}
+
+.ranged {
+    width: 90px;
+    height: 7px;
+    border-radius: 10px;
+    background-color: black;
+    transition: 0.3s;
+}
+
+.collection button {
+    background-color: #6b4018 !important;
+    transition: 1s !important;
+}
+
+.collection button:hover {
+    background: -webkit-linear-gradient(90deg, #f1cd76 2%, #ffecb2 42%, #d0a651 71%, #ffecb2) !important;
+    color: black !important;
+
+}
+
+.heading:hover {
+    color: rgb(95, 95, 95) !important;
+}
+
+.sweet1 {
+    background: linear-gradient(to left, bisque, #f7ca90) !important;
+
+}
+
+.sweet2 {
+    background: linear-gradient(to right, bisque, #f7ca90) !important;
+}
+
+.dc {
+    background-color: bisque;
+}
+
+/* ////////////////////////////////////// */
+
+.origin {
+    background-color: #222b48 !important;
+    color: white;
+    border-radius: 70px;
+    box-shadow: 1px 1px 40px 1px black !important;
+}
+
+.origin img {
+    transition: 1s !important;
+}
+
+.origin h2 a:hover {
+    transition: 1s !important;
+    background: -webkit-linear-gradient(90deg, #f1cd76 2%, #ffecb2 42%, #d0a651 71%, #ffecb2) !important;
+    -webkit-text-fill-color: transparent;
+    background-clip: text !important;
+}
+
+.origin img:hover {
+    transform: rotate(360deg) !important;
+    filter: brightness(1.3) contrast(1.2);
+}
+
+.arrow {
+    padding-top: 110px;
+    color: white !important;
+    text-shadow: 1px 1px 10px black;
+}
+
+.gold {
+background-image: url(../imgs/2b6b5e3a472f4c7bd05f4d77d81e9927-removebg-preview\ \(1\).png);
+background-size: contain;
+background-repeat: no-repeat;
+background-position-y: bottom;
+width: 400px;
+height: 200px;
+}
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+table,
+.zxc {
+    background-color: #222b48;
+    color: white !important;
+}
+
+span {
+    line-height: 70px;
+}
+
+.final {
+    border-top: 1px solid rgb(219, 163, 59) !important;
+    border-bottom: 1px solid rgb(219, 163, 59) !important;
+}
+
+
+.win2 {
+    background: -webkit-linear-gradient(90deg, #f1cd76 2%, #ffecb2 42%, #d0a651 71%, #ffecb2) !important;
+    -webkit-text-fill-color: transparent;
+    background-clip: text !important;
+}
+
+
+
+.light:hover {
+    filter: brightness(1.4) contrast(1.2);
+    cursor: pointer;
+}
+
+td a:hover {
+    color: #f1cd76 !important;
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+div ul li i {
+    background: -webkit-linear-gradient(90deg, #f1cd76 2%, #ffecb2 42%, #d0a651 71%, #ffecb2) !important;
+    -webkit-text-fill-color: transparent;
+    background-clip: text !important;
+}
+
+div ul li i:hover {
+    background: linear-gradient(145deg, #cfcfcf 10%, #e6e6e6 25%, #b3b3b3 50%, #f2f2f2 75%, #e6e6e6 90%)!important;
+    -webkit-text-fill-color: transparent;
+    background-clip: text !important;
+}
+
+
+

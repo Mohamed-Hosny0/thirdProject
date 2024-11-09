@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Dancing+Script:wght@400..700&family=Playwrite+CU:wght@100..400&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary c1 fixed-top" style="z-index: 4999;">
+        <div class="container-fluid c1">
+            <a class="navbar-brand c1 " href="#"><img
+                    src="imgs/elegant-logo-perfume-cosmetic-brand_1161356-89617-removebg-preview.png" alt="" width="40"
+                    height="50"></a>
+            <button class="navbar-toggler c1" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon c1"></span>
+            </button>
+            <h3 class="border-end pe-3 pt-2 lamb">Élixir d'Or</h3>
+            <div class="collapse navbar-collapse c1 " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 c1 ">
+                    <li class="nav-item ">
+                        <a class="nav-link active c1 " aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link c1" href="#">Collection</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link c1" href="#">Fregrance</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link c1" href="#">Outlets</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link c1" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown dp " style="border:1px solid #d0a651; border-radius:10px">
+                        <a class="nav-link dropdown-toggle c1" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu c1 border-dark " aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item c1 table-hover" href="#">Best Seller</a></li>
+                            <li>
+                                <hr class="dropdown-divider bg-light">
+                            </li>
+                            <li><a class="dropdown-item c1 table-hover" href="#">Exclusive Offers</a></li>
+                            <li>
+                                <hr class="dropdown-divider bg-light">
+                            </li>
+                            <li><a class="dropdown-item c1 table-hover" href="#">Gifts</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex c1">
+                    <input class="form-control me-2 c1 gbg" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn  c1 mx-3 btn-c text-dark" type="submit">Search</button>
+                    <button type="button" class="btn  c1 mx-3 btn-c text-dark" type="submit" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Login
+                    </button>
+
+
+                    <div class="modal fade fixed-top" style="z-index: 5000;" id="exampleModal" tabindex="-1"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-backdrop="static"
+                        data-bs-keyboard="false" role="dialog" aria-modal="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-light">Login</h5>
+                                    <button type="button" class="btn-close bg-light " data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body c1">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label text-light">Email
+                                                address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp">
+                                            <div id="emailHelp" class="form-text text-secondary">We'll never share your
+                                                email with
+                                                anyone else.</div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputPassword1"
+                                                class="form-label text-light">Password</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1">
+                                        </div>
+                                        <div class="mb-3 form-check">
+                                            <div class="form-check form-switch pt-0 pb-0">
+                                                <input class="form-check-input" type="checkbox"
+                                                    id="flexSwitchCheckChecked" checked>
+                                                <label class="form-check-label text-light "
+                                                    for="flexSwitchCheckChecked ">Remember
+                                                    Me</label>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer d-flex justify-content-between container c1">
+                                    <button type="submit" class="btn btn-c text-dark fw-bold  p-1">Submit</button>
+                                    <button style="background-color: #1b273f80 !important;" type="button"
+                                        class="btn btn-secondary c1 text-light fw-bold "
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+
+    </nav>
+
+
+
+
+    <button class="btn btn-primary position-fixed top-50 end-0 translate-middle-y" type="button"
+        style="background-color: rgb(219, 163, 59) !important; z-index: 9999 !important;" data-bs-toggle="collapse"
+        data-bs-target="#social-links" aria-expanded="false" aria-controls="social-links">
+        <i class="fa fa-bars"></i>
+    </button>
+
+
+    <div class="collapse position-fixed top-50 end-0 translate-middle-y bg-dark p-2" id="social-links"
+        style="background-color: #242d41 !important; z-index: 9999 !important;">
+        <ul class="list-unstyled fs-2 p-1">
+            <li class="my-3"><a href="#" class="text-light"><i class="fa-brands fa-square-facebook"></i></a></li>
+            <li class="my-3"><a href="#" class="text-light"><i class="fa-brands fa-facebook-messenger"></i></a></li>
+            <li class="my-3"><a href="#" class="text-light"><i class="fa-brands fa-whatsapp"></i></a></li>
+            <li class="my-3"><a href="#" class="text-light"><i class="fa-brands fa-instagram"></i></a></li>
+            <li class="my-3"><a href="#" class="text-light"><i class="fa-brands fa-tiktok"></i></a></li>
+        </ul>
+    </div>
+
+
+
+
+
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner col-12 col-sm-12 ">
+            <div class="carousel-item active col-12 col-sm-12 ">
+                <img src="imgs/carousel1 (1).png" width="20" height="800" class="d-block w-100" alt="...">
+                <div class="carousel-caption  cbg w-50 container">
+                    <h4>Discover the Essence of Pure Luxury</h4>
+                    <p>Immerse yourself in the world of Élixir d'Or, where every scent is crafted with precision,
+                        and a commitment to perfection.</p>
+                    <a href="#" class="btn btn-primary crbt">Explore More</a>
+                </div>
+            </div>
+            <div class="carousel-item col-12 col-sm-12">
+                <img src="imgs/carousel2.png" height="800" class="d-block w-100" alt="...">
+                <div class="carousel-caption  cbg w-50 container">
+                    <h4> Artistry in Every Drop</h4>
+                    <p>Each bottle embodies our dedication to elegance and sophistication, meticulously designed for the
+                        fine perfumes.</p>
+                    <a href="#" type="btn" class="btn btn-primary crbt">Explore More</a>
+                </div>
+            </div>
+            <div class="carousel-item col-12 col-sm-12">
+                <img src="imgs/carousel3.png" height="800" class="d-block w-100" alt="...">
+                <div class="carousel-caption  cbg w-50 container">
+                    <h4>Unveil Your Signature Scent</h4>
+                    <p> Explore the allure of our signature Élixir d'Or collection, crafted for those who seek
+                        exclusivity and refinement.</p>
+                    <a href="#" type="btn" class="btn btn-primary crbt">Explore More</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+    <div class="card text-center" style="border-top: 1px solid #d0a651 !important;">
+        <div class="card-body">
+            <h5 class="card-title text-center fs-2 fw-bold">Welcome To Our Élixir of Luxury</h5>
+            <p class="card-text fs-5 text-center">Indulge in the opulence of Élixir d'Or, a fragrance crafted for those
+                who seek the
+                extraordinary. Each golden drop is a journey into a world of luxury, where sophistication meets the art
+                of seduction, and every scent lingers as a timeless testament to elegance and beauty.</p>
+            <a href="#" class="btn text-center btn-c c2 rounded p-1 text-dark fs-4">Explore More</a>
+        </div>
+    </div>
+
+
+
+
+    <div class="container gold mb-3" style="margin-top: -50px !important; ">
+        <h1 class="text-center arrow "> Best Sellers </h1>
+    </div>
+
+
+
+    <div class="accordion  fs-4" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button text-light fs-3" style="background-color: #242d41;" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                    aria-controls="collapseOne">
+                    TomFord
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" style="background-color: #f9f0e5;"
+                aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body d-flex" style="background-color: bisque;">
+                    <img src="https://static.insales-cdn.com/images/products/1/49/797163569/IMG_4580.webp"
+                        class="rounded-circle me-2" style="object-fit:fill;" width="150" height="150" alt="">
+                    <p class="pt-3"><strong>Tom Ford perfume.</strong>
+                        Embodies modern luxury and sophistication. Known for bold and elegant designs, Tom
+                        Ford’s fragrances are crafted with the same attention to detail. Each scent is carefully created
+                        using rare and precious ingredients, offering a distinctive and lasting olfactory experience.
+                        Whether it's the timeless allure of "Black Orchid" or the seductive warmth of "Tobacco Vanille,"
+                        Tom
+                        Ford perfumes evoke a sense of confidence, opulence, and unparalleled style, making them a
+                        symbol of contemporary elegance.</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item" style="background-color: #f9f0e5;">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed text-light fs-3" style="background-color: #242d41;"
+                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                    aria-controls="collapseTwo">
+                    Majestic Feminin
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body d-flex " style="background-color: bisque;">
+
+                    <img src="imgs/Majestic 2.png" class="rounded-circle me-2" style="object-fit:fill;" width="150"
+                        height="150" alt="">
+
+                    <p class="pt-3"> <strong>Majestic Féminin.</strong>Is a name that exudes
+                        power, grace, and elegance. It evokes the image of a woman who carries herself with regal
+                        confidence
+                        and timeless beauty. A fragrance that embodies femininity at its most majestic, blending
+                        strength
+                        with delicate allure. Majestic Féminin is for the woman who commands attention effortlessly,
+                        leaving
+                        a trail of enchantment and sophistication wherever she goes.</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item" style="background-color: #f9f0e5;">
+            <h2 class="accordion-header " id="headingThree">
+                <button class="accordion-button collapsed text-light fs-3" style="background-color: #242d41;"
+                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                    aria-controls="collapseThree">
+                    Ultra Male
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body d-flex" style="background-color: bisque;">
+                    <img src="https://i0.wp.com/fragranceplanet.com.ng/wp-content/uploads/2023/12/Jean-Paul-Gaultier-Ultra-Male-Intense-EDT-.jpg?fit=557%2C557&ssl=1"
+                        class="rounded-circle me-2" style="object-fit:fill;" width="150" height="150" alt="">
+                    <p class="pt-3"><strong>Ultra Male.</strong>Is a fragrance that captures
+                        the essence of bold masculinity and untamed charisma. Designed for the modern man who is
+                        confident,
+                        daring, and unapologetically himself, Ultra Male is an intense blend of power and sensuality.
+                        With
+                        its rich and spicy notes balanced by sweet undertones, this fragrance leaves a lasting
+                        impression,
+                        making it perfect for men who want to stand out and embrace their dominance in every room they
+                        enter. It's a scent that embodies strength, allure, and the magnetic pull of the ultimate male
+                        figure.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container-fluid    mb-5">
+        <div>
+            <h2 class="text-center new  p-4 w-100 fs-1">Discover Your Signature Scent (Men's Edition)</h2>
+        </div>
+        <div class="mb-3">
+            <h2 for="exampleFormControlInput1" class="form-label">Write and <a class="text-decoration-none"
+                    target="_blank"
+                    href="https://www.noteworthyscents.com/pages/quiz?srsltid=AfmBOoo3l-naznWjRK0kbEkbOMLtDVxU-OBXS--_-hzi9VPROsP7AjP7">Send
+                    Here</a> </h2>
+        </div>
+        <div class="mb-3">
+            <button type="button" class="btn btn-dark mb-3 px-4 fs-4 btn1 btn-c custom text-dark fw-bold"
+                value="Copy To Clipboard" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right"
+                data-bs-content="Right popover"> Copy
+            </button>
+            <textarea class="form-control" placeholder="Please Write Your Scents:" id="exampleFormControlTextarea1"
+                rows="3"></textarea>
+        </div>
+    </div>
+    <div class="container-fluid  pt-3 p-2 mb-5">
+        <div>
+            <h2 class="text-center new p-4 w-100 fs-1">Discover Your Signature Scent (Women's Edition)</h2>
+        </div>
+        <div class="mb-3">
+            <h2 for="exampleFormControlInput1" class="form-label">Write and <a class="text-decoration-none"
+                    target="_blank"
+                    href="https://www.noteworthyscents.com/pages/quiz?srsltid=AfmBOoo3l-naznWjRK0kbEkbOMLtDVxU-OBXS--_-hzi9VPROsP7AjP7">Send
+                    Here</a> </h2>
+        </div>
+        <div class="mb-3">
+            <button type="button" class="btn btn-dark mb-3 px-4 fs-4 btn1 btn-c custom text-dark fw-bold"
+                value="Copy To Clipboard"> Copy
+            </button>
+            <textarea class="form-control" placeholder="Please Write Your Scents:" id="exampleFormControlTextarea1"
+                rows="3"></textarea>
+        </div>
+    </div>
+    <div class="container-fluid  pt-3 p-2 mb-5">
+        <div>
+            <h2 class="text-center new p-4 w-100 fs-1">Discover Your Signature Scent (Mixed Edition)</h2>
+        </div>
+        <div class="mb-3">
+            <h2 for="exampleFormControlInput1" class="form-label">Write and <a class="text-decoration-none"
+                    target="_blank"
+                    href="https://www.noteworthyscents.com/pages/quiz?srsltid=AfmBOoo3l-naznWjRK0kbEkbOMLtDVxU-OBXS--_-hzi9VPROsP7AjP7">Send
+                    Here</a> </h2>
+        </div>
+        <div class="mb-3">
+            <button type="button" class="btn btn-dark mb-3  px-4 fs-4 btn1 btn-c custom text-dark fw-bold"
+                value="Copy To Clipboard"> Copy
+            </button>
+            <textarea class="form-control" placeholder="Please Write Your Scents:" id="exampleFormControlTextarea1"
+                rows="3"></textarea>
+        </div>
+    </div>
+
+
+
+    <div class=" col-12 imgcss mb-2 "></div>
+
+
+    <div class="container gold mb-5">
+        <h2 class="arrow text-center">Our Most Wanted</h2>
+    </div>
+
+
+
+
+
+
+    <div class="container-fluid text-center mb-5">
+        <div class="  row  justify-content-evenly gap-5  ">
+
+            <div class="card col-12 col-lg-3 col-md-4 col-sm-6 shadow over-p ">
+                <div class="overlay">
+                    <img src="https://scentido.com/cdn/shop/files/IconicFwebfront_720x.jpg?v=1701691646"
+                        class="card-img-top pt-2 " alt="...">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title fs-2">Clive Christian</h5>
+                    <p class="card-text" style=" text-align: justify;"> combines vibrant citrus and woody notes,
+                        featuring ginger, lime, and
+                        sandalwood, creating a fresh yet warm profile that lasts throughout the day. Meanwhile,
+                        Contemporary is an aromatic fougère, blending sage, lavender, nutmeg, and cedarwood for a
+                        refined balance of cool and warm tones.</p>
+                    <p class="fs-4">Price: $500.00</p>
+                    <a href="#" class="btn btn-primary"><i class="fa-solid fa-cart-shopping"></i> Add To Cart</a>
+                </div>
+            </div>
+
+
+            <div class=" card col-12 col-lg-3 col-md-4 col-sm-6 shadow over-p">
+                <div class="overlay">
+                    <img src="https://scentido.com/cdn/shop/files/Damask_1_720x.jpg?v=1729672708"
+                        class="card-img-top pt-2" alt="...">
+                </div>
+
+                <div class="card-body">
+                    <h5 class="card-title fs-2">Ormonde Jayne's Damask</h5>
+                    <p class="card-text" style=" text-align: justify;">highlights a floral blend with prominent Damask
+                        rose notes, enriched by hints
+                        of pear and berry that lend a fruity charm. This fragrance accentuates the sweet and natural
+                        nuances of Damask rose, making it ideal for those who appreciate floral and fruity scents.</p>
+                    <p class="fs-4">Price: $170.00</p>
+                    <a href="#" class="btn btn-primary"><i class="fa-solid fa-cart-shopping"></i> Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="card col-12 col-lg-3 col-md-4 col-sm-6 shadow over-p">
+                <div class="overlay">
+                    <img src="https://scentido.com/cdn/shop/files/ElysiumEauIntenseresized_b2f5fabd-c597-459c-825a-be17cde00f75_720x.jpg?v=1729880590"
+                        class="card-img-top pt-2" alt="...">
+                </div>
+
+                <div class="card-body">
+                    <h5 class="card-title fs-2">Elysium</h5>
+                    <p class="card-text" style=" text-align: justify;">A variety of fresh and aromatic notes. This
+                        fragrance features a mix of
+                        citrusy top notes like lemon and bergamot, combined with a floral heart that includes jasmine
+                        and lily of the valley, balanced by a deep base of vetiver, ambergris, and leather.
+                    </p>
+                    <p class="fs-4">Price: $325.00</p>
+                    <a href="#" class="btn btn-primary"><i class="fa-solid fa-cart-shopping"></i> Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="card col-12 col-lg-3 col-md-4 col-sm-6 shadow over-p">
+                <div class="overlay">
+                    <img src="https://scentido.com/cdn/shop/products/Millesime-Imperial_New-Website_Resized_720x.jpg?v=1647260805"
+                        class="card-img-top pt-2" alt="...">
+                </div>
+
+                <div class="card-body">
+                    <h5 class="card-title fs-2">Creed Millésime Impérial</h5>
+                    <p class="card-text" style=" text-align: justify;">perfume embodies elements of both freshness and
+                        sophistication. It opens with
+                        vibrant top notes of bergamot, blackcurrant, and violet leaf, which lend a bright, citrusy
+                        start. The heart notes feature a marine accord and iris, offering a breezy, oceanic feel.</p>
+                    <p class="fs-4">Price: $345.00</p>
+                    <a href="#" class="btn btn-primary"><i class="fa-solid fa-cart-shopping"></i> Add To Cart</a>
+                </div>
+            </div>
+
+            <div class="card col-12 col-lg-3 col-md-4 col-sm-6 shadow over-p">
+                <div class="overlay">
+                    <img src="https://scentido.com/cdn/shop/products/Oceaniaresized_720x.jpg?v=1709204402"
+                        class="card-img-top pt-2" alt="...">
+                </div>
+
+                <div class="card-body ">
+                    <h5 class="card-title fs-2">Oceania</h5>
+                    <p class="card-text" style=" text-align: justify;"> fragrance captures a sense of fresh oceanic air
+                        with a sophisticated blend of
+                        citrus and floral notes. It opens with bright citrus top notes, followed by a mix of florals
+                        such as jasmine and violet, and settles into a warm, woody base of cedar and sandalwood.</p>
+                    <p class="fs-4">Price: $320.00</p>
+                    <a href="#" class="btn btn-primary"><i class="fa-solid fa-cart-shopping"></i> Add To Cart</a>
+                </div>
+            </div>
+
+
+            <div class="card col-12 col-lg-3 col-md-4 col-sm-6 shadow over-p">
+                <div class="overlay">
+                    <img src="https://scentido.com/cdn/shop/products/No.-1-Feminine_New-Website_Resized_720x.jpg?v=1680501212"
+                        class="card-img-top pt-2" alt="...">
+                </div>
+
+                <div class="card-body ">
+                    <h5 class="card-title fs-2">Clive Christian No.1</h5>
+                    <p class="card-text">This scent comes in both Masculine and Feminine versions and is renowned for
+                        its intricate blend of rare ingredients. The Masculine version combines top notes of pimento and
+                        lime with a rich heart of cardamom, nutmeg, and bergamot.</p>
+                    <p class="fs-4">Price: $790.00</p>
+                    <a href="#" class="btn btn-primary"><i class="fa-solid fa-cart-shopping"></i> Add To Cart</a>
+                </div>
+            </div>
+
+
+            <div class="card col-12 col-lg-3 col-md-4 col-sm-6 shadow over-p">
+                <div class="overlay">
+                    <img src="https://scentido.com/cdn/shop/files/Oriento_100ml_f56d07ed-b01e-4e0a-a63b-a940cae25867_720x.jpg?v=1717908758"
+                        class="card-img-top pt-2" alt="...">
+                </div>
+
+                <div class="card-body ">
+                    <h5 class="card-title fs-2">Jeroboam's Oriento</h5>
+                    <p class="card-text">This perfume opens with the rich notes of saffron and lemon, blending into a
+                        heart of rose, apple, and ylang-ylang. The base features deep, sensual notes of white musk,
+                        patchouli, and sandalwood. This scent is ideal for those who enjoy complex, intense fragrances
+                        with a captivating trail.</p>
+                    <p class="fs-4">Price: $267.00</p>
+                    <a href="#" class="btn btn-primary"><i class="fa-solid fa-cart-shopping"></i> Add To Cart</a>
+                </div>
+            </div>
+
+
+            <div class="card col-12 col-lg-3 col-md-4 col-sm-6 shadow over-p">
+                <div class="overlay">
+                    <img src="https://scentido.com/cdn/shop/files/CullinanDiamond_720x.jpg?v=1705303243"
+                        class="card-img-top pt-2" alt="...">
+                </div>
+
+                <div class="card-body ">
+                    <h5 class="card-title fs-2">Thameen's Cullinan Diamond</h5>
+                    <p class="card-text">Ultra-luxurious fragrance, inspired by the legendary Cullinan diamond. It is
+                        an opulent and refined scent, housed in an exquisite bottle. The fragrance is known for its
+                        rich, floral, and woody notes, delivering a blend of elegance and sophistication.</p>
+                    <p class="fs-4">Price: $195.00</p>
+                    <a href="#" class="btn btn-primary"><i class="fa-solid fa-cart-shopping"></i> Add To Cart</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <div class=" col-12 imgcss2 mb-2 "></div>
+
+    <div class="container gold ">
+        <h2 class="text-center arrow "> Most Famous Brands</h2>
+    </div>
+
+
+
+
+
+
+
+    <div class="container-fluid d-flex border-0 flex-wrap mt-5 justify-content-center">
+
+        <div class="card card1 position-relative border-0 col-12 col-md-6 col-lg-4 "
+            style="border-radius:20px; max-width: 560px; height: 580px; overflow: hidden; transition: 0.4s; margin: 10px;">
+            <img src="https://numero.com/wp-content/uploads/2024/06/thumb-cover-tom-ford-portrait-numero-homme.jpg"
+                class="card-img border-0" alt="..." style="height: 100%; width: 100%; ">
+            <div class="zxca border-0 card-img-overlay d-flex flex-column align-items-start "
+                style="border-radius: 20px; transition: 0.4s;">
+                <h1 class="text1 card-title text-light p-2">Tom Ford</h1>
+                <p class="text1 card-text text-light fs-4 p-2 fw-bold"><i class="fa-solid fa-pen-fancy text1 "> </i> "A
+                    fragrance
+                    is like a fashion accessory; it should express who you
+                    are."</p>
+
+            </div>
+
+            <button type="button" class="btn position-absolute qwer ms-5 rounded-circle"><img
+                    class="rounded-circle me-2" style="object-fit:fill;" width="170" height="200" alt=""
+                    src="https://numero.com/wp-content/uploads/2024/06/thumb-cover-tom-ford-portrait-numero-homme.jpg"
+                    alt=""></button>
+            <p class="position-absolute bottom-0 ms-4 fw-bold text-light fs-5 ">Tom Ford is the creator <br> of the
+                luxury
+                brand
+                *Tom
+                Ford*.</p>
+
+
+        </div>
+
+        <div class="card card1 border-0 position-relative col-12 col-md-6 col-lg-4"
+            style="border-radius:20px; max-width: 560px; height: 580px; overflow: hidden; transition: 0.4s; margin: 10px;">
+            <img src="https://cdn.prod.website-files.com/62e784731ab06252bc242191/62e784e766a823e033e82e90_jeanpeaul-gaultier_jpg_fashionfreakshow-paris.jpg"
+                class="card-img" alt="..." style="height: 100%; width: 100%; object-fit: fill;">
+            <div class=" zxca card-img-overlay d-flex flex-column align-items-start "
+                style="border-radius: 20px; transition: 0.4s;">
+                <h1 class="text1 card-title text-light p-2">Jean Paul</h1>
+                <p class="text1 card-text text-light p-2 fs-4 fw-bold"> <i class="fa-solid fa-pen-fancy text1"> </i>
+                    "Perfume is
+                    ultimate accessory. It reveals who you are in this world."</p>
+
+            </div>
+
+            <button type="button" class="btn position-absolute qwer ms-5 rounded-circle"><img
+                    class="rounded-circle me-2" style="object-fit:fill;" width="170" height="200" alt=""
+                    src="https://cdn.prod.website-files.com/62e784731ab06252bc242191/62e784e766a823e033e82e90_jeanpeaul-gaultier_jpg_fashionfreakshow-paris.jpg"
+                    alt=""></button>
+            <p class="position-absolute bottom-0 ms-4 fw-bold text-light fs-5">Jean Paul Gaultier is the creator <br> of
+                the
+                Jean
+                Paul Gaultier luxury brand.</p>
+
+        </div>
+
+        <div class="card card1 border-0 position-relative col-12 col-md-6 col-lg-4"
+            style="border-radius:20px; max-width: 560px; height: 580px; overflow: hidden; transition: 0.4s; margin: 10px;">
+            <img src="https://wwd.com/wp-content/uploads/2021/10/DIOR_PORTRAIT_010_0206-copy.jpg" class="card-img"
+                alt="..." style="height: 100%; width: 100%; object-fit: cover;">
+            <div class=" zxca card-img-overlay d-flex flex-column align-items-start "
+                style="border-radius: 20px; transition: 0.4s;">
+                <h1 class="text1 card-title text-light p-2">Francis Kurkdjian</h1>
+                <p class="text1  card-text text-light fw-bold p-2 fs-4"><i class="fa-solid fa-pen-fancy text1"> </i>
+                    "Fragrance
+                    is
+                    the
+                    silent
+                    ambassador of your personality."</p>
+            </div>
+            <button type="button" class="btn position-absolute qwer ms-5 rounded-circle"><img
+                    class="rounded-circle me-2" style="object-fit:cover;" width="170" height="200" alt=""
+                    src="https://wwd.com/wp-content/uploads/2021/10/DIOR_PORTRAIT_010_0206-copy.jpg" alt=""></button>
+
+            <p class="position-absolute bottom-0 ms-4 fw-bold text-light fs-5 ">Francis Kurkdjian is the creator of
+                the
+                luxury
+                brand <br> Maison Francis Kurkdjian.</p>
+        </div>
+    </div>
+
+
+
+    <div class="gold container mb-5">
+        <h2 class="text-center arrow">Scented Bliss</h2>
+    </div>
+
+
+
+
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+    <div class="dc">
+        <div class="container  overflow-hidden aaaa  ">
+            <div class="row overflow-hidden d-flex mx-auto aheh mt-3 sweet1">
+
+                <div class="col-12 col-md-4   order-md-1 order-lg-2 bgi ">
+                    <img src="https://maazsafder.store/cdn/shop/files/Post-22.jpg?v=1699539345&width=990" width="100%"
+                        height="auto" class="img">
+                </div>
+
+                <span class="span1"></span>
+
+                <div class="col-12 col-md-8 order-md-2 zzz p-5  ">
+                    <a href="#">
+                        <h2 class="heading" style="color: black;">Exquisite Aroma - Exceptional</h2>
+                    </a>
+                    <i class="fa-solid fa-spray-can-sparkles fs-4 lh-lg"></i>
+                    <p class="d-inline fw-bold ">Fragrance Notes: Fresh bursts, Jasmine, Lily Flowers. </p>
+                    <div class="ranged my-2"></div>
+                    <p class="fs-5 w-100" style="text-align: justify; max-width: 950px !important;">
+                        Dive into the luxurious allure of "Exquisite Aroma Exceptional You," a fragrance crafted to
+                        embody
+                        the essence of elegance, strength, and individuality. This scent doesn’t just sit on the skin;
+                        it
+                        melds with your very presence, creating a captivating aura that speaks volumes about
+                        sophistication
+                        and refinement.
+
+                        Opening with a burst of refreshing bergamot and zesty lemon, it invites you into a world of
+                        freshness and vitality. As the fragrance settles, delicate heart notes of jasmine and white lily
+                        add
+                        a graceful floral complexity, blending seamlessly with your natural scent to create a
+                        harmonious,
+                        enchanting experience. These middle notes evoke memories of blossoming gardens at dusk,
+                        symbolizing
+                        both beauty and mystery.
+                    </p>
+
+                    <div class="collection d-flex flex-column flex-md-row">
+                        <button type="button" class="btn text-light ms-md-0 mb-2 mb-md-0 fw-bold"><i
+                                class="fa-solid fa-magnifying-glass-chart"></i> Customer Reviews</button>
+                        <button type="button" class="btn text-light ms-md-3 mb-2 mb-md-0 fw-bold"><i
+                                class="fa-solid fa-snowflake"></i> Similar Scents</button>
+                        <button type="button" class="btn text-light ms-md-3 fw-bold"><i
+                                class="fa-solid fa-cart-shopping"></i> Shop
+                            Now</button>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- //////////////////////////////////////////////////////////////////////////// -->
+
+        <div class="container mt-5 overflow-hidden aaaa mb-5 ">
+            <div class="row overflow-hidden d-flex mx-auto aheh sweet2">
+
+                <div class="col-12 col-md-4   order-md-1 order-lg-2 bgi ">
+                    <img src="https://deenandnoor.com/cdn/shop/files/LegendGoldEauDeParfum_3.4OZ_100ml_deenandnoor..jpg?v=1722641188&width=1946"
+                        width="100%" height="auto" class="img">
+                </div>
+
+                <span class="span2"></span>
+
+                <div class="col-12 col-md-8 order-md-2 ccc p-5 ms-4" style=" max-width: 1030px !important;">
+                    <a href="#">
+                        <h2 class="heading" style="color: black;">Legend Gold</h2>
+                    </a>
+
+                    <i class="fa-solid fa-spray-can-sparkles fs-4 lh-lg"></i>
+                    <p class="d-inline fw-bold ">Fragrance Notes: Amber, Musk, Rose, Oud, and Jasmine. </p>
+                    <div class="ranged my-2"></div>
+
+                    <p class=" fs-5" style="text-align: justify; ">
+                        The fragrance opens with an invigorating blend of citrus and aromatic spices, setting a fresh,
+                        bold
+                        tone that captures attention. At its heart, delicate notes of rose and oud create a deeply
+                        resonant
+                        experience—one that’s warm, mysterious, and perfectly balanced. The rose lends a hint of
+                        sweetness,
+                        while the oud adds a distinctive richness that feels both powerful and graceful.
+
+                        As the fragrance settles, base notes of amber, musk, and sandalwood emerge, grounding the scent
+                        in
+                        earthy warmth and providing a lingering depth. This long-lasting finish makes "Legend Gold Deen
+                        &
+                        Noor" unforgettable, creating a trail that speaks of class and luxury.
+                    </p>
+
+                    <div class="collection d-flex flex-column flex-md-row">
+                        <button type="button" class="btn text-light ms-md-0 mb-2 mb-md-0"><i
+                                class="fa-solid fa-magnifying-glass-chart"></i> Customer Reviews</button>
+                        <button type="button" class="btn text-light ms-md-3 mb-2 mb-md-0"><i
+                                class="fa-solid fa-snowflake"></i> Similar Scents</button>
+                        <button type="button" class="btn text-light ms-md-3"><i class="fa-solid fa-cart-shopping"></i>
+                            Shop
+                            Now</button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- //////////////////////////////////////////////////////////////////////////// -->
+
+        <div class="container  overflow-hidden aaaa ">
+            <div class="row overflow-hidden d-flex mx-auto aheh sweet1">
+
+                <div class="col-12 col-md-4   order-md-1 order-lg-2 bgi ">
+                    <img src="https://daaralawadhi.com/cdn/shop/files/image_234e8249-4b25-41c6-950c-6f63698e19d3_530x@2x.png?v=1724588335"
+                        width="100%" height="529" class="img">
+                </div>
+
+                <span class="span1"></span>
+
+                <div class="col-12 col-md-8 order-md-2 zzz p-5  ">
+                    <a href="#">
+                        <h2 class="heading" style="color: black;">1 Million</h2>
+                    </a>
+                    <i class="fa-solid fa-spray-can-sparkles fs-4 lh-lg"></i>
+                    <p class="d-inline fw-bold ">Fragrance Notes: Ment, Blood Orange, Lemon, Cinnamon and Cedarwood.
+                    </p>
+                    <div class="ranged my-2"></div>
+                    <p class="fs-5 w-100" style="text-align: justify; max-width: 950px !important;">
+                        As the fragrance evolves, it reveals a warm and inviting base composed of luxurious notes of
+                        cedarwood, smooth leather, and rich amber. These elements work together to create a captivating
+                        and
+                        enduring scent that lingers on the skin, leaving a memorable trail. The balance between the
+                        fresh
+                        top notes and the warm base makes "One Million" versatile, suitable for both daytime wear and
+                        evening occasions.
+
+                        The packaging of "One Million" is as striking as the fragrance itself. Housed in a bold, gold
+                        ingot-shaped bottle, it exudes an air of extravagance and refinement. This design not only
+                        reflects
+                        the opulence of the scent but also serves as a statement piece on any dresser.
+                    </p>
+
+                    <div class="collection d-flex flex-column flex-md-row">
+                        <button type="button" class="btn text-light ms-md-0 mb-2 mb-md-0"><i
+                                class="fa-solid fa-magnifying-glass-chart"></i> Customer Reviews</button>
+                        <button type="button" class="btn text-light ms-md-3 mb-2 mb-md-0"><i
+                                class="fa-solid fa-snowflake"></i> Similar Scents</button>
+                        <button type="button" class="btn text-light ms-md-3"><i class="fa-solid fa-cart-shopping"></i>
+                            Shop
+                            Now</button>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <!-- //////////////////////////////////////////////////////////////////////////// -->
+
+        <div class="container mt-5 overflow-hidden aaaa  ">
+            <div class="row overflow-hidden d-flex mx-auto aheh sweet2">
+
+                <div class="col-12 col-md-4   order-md-1 order-lg-2 bgi ">
+                    <img src="https://i.pinimg.com/564x/a6/90/86/a69086242b8dc64153e3203309eae9f2.jpg" width="100%"
+                        height="529" class="img">
+                </div>
+
+                <span class="span2"></span>
+
+                <div class="col-12 col-md-8 order-md-2 ccc p-5 ms-4" style=" max-width: 1030px !important;">
+                    <a href="#">
+                        <h2 class="heading" style="color: black;"> Coco Mademoiselle</h2>
+                    </a>
+
+                    <i class="fa-solid fa-spray-can-sparkles fs-4 lh-lg"></i>
+                    <p class="d-inline fw-bold ">Fragrance Notes: Bergamot, Orange, Lily of the Valley, Vanilla and
+                        Tonka Bean. </p>
+                    <div class="ranged my-2"></div>
+
+                    <p class=" fs-5" style="text-align: justify; ">
+                        Coco Mademoiselle is often described as fresh, vibrant, and elegant, making it suitable for
+                        various
+                        occasions, from daywear to evening events. Its chic and sophisticated profile is emblematic of
+                        the
+                        modern woman who embodies confidence and charm. The iconic bottle design, featuring clean lines
+                        and
+                        a minimalist aesthetic, reflects the timeless elegance of Chanel and complements the luxurious
+                        experience of this exquisite fragrance.
+
+                        With its rich blend of notes, Coco Mademoiselle has become a staple in the world of perfumery,
+                        celebrated for its versatility and allure.
+                    </p>
+
+                    <div class="collection d-flex flex-column flex-md-row">
+                        <button type="button" class="btn text-light ms-md-0 mb-2 mb-md-0"><i
+                                class="fa-solid fa-magnifying-glass-chart"></i> Customer Reviews</button>
+                        <button type="button" class="btn text-light ms-md-3 mb-2 mb-md-0"><i
+                                class="fa-solid fa-snowflake"></i> Similar Scents</button>
+                        <button type="button" class="btn text-light ms-md-3"><i class="fa-solid fa-cart-shopping"></i>
+                            Shop
+                            Now</button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- //////////////////////////////////////////////////////////////////////////// -->
+
+    <div class=" container gold">
+        <h2 class="text-center text-dark fw-bold arrow">Reach Us At</h2>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row justify-content-center justify-content-md-between text-center">
+            <div class="col-8 col-sm-6 col-md-3 mb-4 ">
+                <div class="bg-light shadow-lg p-3 origin">
+                    <h2>Follow Us ON</h2>
+                    <img src="imgs/face.png" width="150" height="150" class="my-3 rounded-5" alt="">
+                    <h2><a class="text-light" href="#">Visit Our Page</a></h2>
+                </div>
+            </div>
+
+            <div class="col-8 col-sm-6 col-md-3 mb-4">
+                <div class="bg-light shadow-lg p-3 origin">
+                    <h2>Follow Us ON</h2>
+                    <img src="imgs/insta.png" width="150" height="150" class="my-3 rounded-5" alt="">
+                    <h2><a class="text-light" href="#">Visit Our Page</a></h2>
+                </div>
+            </div>
+
+            <div class="col-8 col-sm-6 col-md-3 mb-4">
+                <div class="bg-light shadow-lg p-3 origin">
+                    <h2>Follow Us ON</h2>
+                    <img src="imgs/link.png" width="150" height="150" class="my-3 rounded-5" alt="">
+                    <h2><a class="text-light" href="#">Visit Our Page</a></h2>
+                </div>
+            </div>
+
+            <div class="col-8 col-sm-6 col-md-3 mb-4">
+                <div class="bg-light shadow-lg p-3 origin">
+                    <h2>Follow Us ON</h2>
+                    <img src="imgs/twit.png" width="150" height="150" class="my-3 rounded-5" alt="">
+                    <h2><a class="text-light" href="#">Visit Our Page</a></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid text-center mt-3 ">
+        <div class="row d-flex flex-sm-column flex-md-row zxc">
+            <div class="col-12 col-lg-4">
+                <table class="table table-borderless text-center table-responsive mt-4">
+                    <tr class="table-bordered ">
+                        <td class="border-top border-bottom border-2 final"
+                            style="border-right: 30px solid #222b48 !important; border-left: 0px !important;">
+                            <img src="imgs/elegant-logo-perfume-cosmetic-brand_1161356-89617-removebg-preview.png"
+                                width="60" height="90" alt="" class="light" style="transition: 0.5s !important;">
+                            <span class="fs-3">Brand's Name</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Élixir d'Or</td>
+                    </tr>
+                    <tr>
+                        <td>"Discover the allure of a scent that lasts"</td>
+                    </tr>
+                    <tr>
+                        <td>"A fragrance that tells a story of elegance and sophistication"</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-12 col-lg-4">
+                <table class="table table-borderless text-center table-responsive mt-4">
+                    <tr class="table-bordered">
+                        <td class="border-top border-bottom border-2 final"
+                            style="border-right: 30px solid #222b48 !important; border-left: 0px !important; ">
+                            <img src="imgs/elegant-logo-perfume-cosmetic-brand_1161356-89617-removebg-preview.png"
+                                width="60" height="90" alt="" class="light" style="transition: 0.5s !important;">
+                            <span class="fs-3">Important Links</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="#" class="text-light">"Visit us for a unique experience."</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="#" class="text-light">"Take a tour and discover unforgettable scents."
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="#" class="text-light">"Fragrance is part of your identity, and we’re here to
+                                perfect
+                                it."
+                            </a></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-12 col-lg-4">
+                <table class="table table-borderless text-center table-responsive mt-4">
+                    <tr class="table-bordered">
+                        <td class="border-top border-bottom border-2 final"
+                            style="border-right: 30px solid #222b48 !important; border-left: 0px !important;">
+                            <img src="imgs/elegant-logo-perfume-cosmetic-brand_1161356-89617-removebg-preview.png"
+                                width="60" height="90" alt="" class="light" style="transition: 0.5s !important;">
+                            <span class="fs-3">Our Vision</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>"Unforgotten experiment For the rest of your life"</td>
+                    </tr>
+                    <tr>
+                        <td>"Bring you exceptional fragrances that reflect your personality."</td>
+                    </tr>
+                    <tr>
+                        <td>"Our vision is to inspire your senses and add a touch of exclusivity to your day."</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid border-bottom border-top border-2 text-capitalize  fs-1 fw-bold text-center text-light win"
+        style="background-color: #222b48;     border-top: 1px solid rgb(219, 163, 59) !important;
+    border-bottom: 1px solid rgb(219, 163, 59) !important;">
+        <h2 class="win2 py-3">copyright &copy;2025 Mohamed Hosny's
+            Brand, All rights reserved.</h2>
+    </div>
+
+
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="js/task.js"></script>
+</body>
+
+</html>
